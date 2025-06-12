@@ -4,6 +4,7 @@
   "packageManager": "pnpm@10.10.0",
   "description": "A SVGA player for modern Web.",
   "homepage": "https://github.com/Naeemo/svga-web",
+  "types": "./types/svga-web.d.ts",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
