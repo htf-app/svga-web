@@ -6,27 +6,12 @@
   <a href="https://www.npmjs.com/package/svga-web"><img src="https://img.shields.io/npm/l/svga-web.svg?sanitize=true" alt="License"></a>
 </p>
 
-A [SVGA](http://svga.io/en/) player for modern Web.
-
-[中文](./README.zh-CN.md)
-
-## Notice
-
-This lib is not an official one by [svga.io](http://svga.io/en/).
-It is maintained by myself currently, original source came from the official [svga.lite](https://github.com/svga/SVGAPlayer-Web-Lite).
-Contributions and discussions are welcome.
-
-- [x] TypeScript Support.
-- [x] Audio support with native `audio` element.
-
-## Usage
-
 ### NPM
-
 ```sh
-$ pnpm add svga-web
-# yarn add svga-web
-# npm i svga-web
+#install these two in angular 
+npm install git+https://github.com/htf-app/svga-web.git --save --legacy-peer-deps
+npm install --save-dev git+https://github.com/htf-app/svga-web-types.git --legacy-peer-deps
+
 ```
 
 ### CDN
