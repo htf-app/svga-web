@@ -4,7 +4,6 @@
   "packageManager": "pnpm@10.10.0",
   "description": "A SVGA player for modern Web.",
   "homepage": "https://github.com/Naeemo/svga-web",
-  "types": "./types/svga-web.d.ts",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
@@ -34,8 +33,8 @@
       "require": "./dist/svga-web.umd.cjs"
     }
   },
-  "types": "src/index.ts",
-  "scripts": {
+  "types": "src/index.ts", 
+   "scripts": {
     "prestart": "prettier --check ./src && tsc -p ./",
     "start": "eslint ./src && vite",
     "prebuild": "prettier --check ./src && tsc -p ./",
