@@ -8,7 +8,6 @@ svga-web.min.js
 util.js
 db.js
 parser.1x.js
-dist/
 
 .idea/
 yarn.lock
