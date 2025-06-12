@@ -40,7 +40,6 @@
     "start": "eslint ./src && vite",
     "prebuild": "prettier --check ./src && tsc -p ./",
     "build": "vite build",
-    "prepublish": "pnpm build",
     "proto": "node scripts/generate-proto.mjs"
   },
   "author": "naeemo<naeemo@qq.com>",
